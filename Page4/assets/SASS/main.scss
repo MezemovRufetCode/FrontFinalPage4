@@ -213,9 +213,21 @@ header {
     padding-bottom: 120px;
     .tab1 {
       padding-top: 40px;
+      .shop {
+        display: none;
+      }
+      .product {
+        display: none;
+      }
     }
     .tab2 {
       padding-top: 40px;
+      .shop {
+        display: none;
+      }
+      .product {
+        display: none;
+      }
     }
     display: flex;
     flex-wrap: wrap;
@@ -262,6 +274,12 @@ header {
     }
   }
   .tab3 {
+    .shop {
+      display: none;
+    }
+    .product {
+      display: none;
+    }
     .categories {
       padding: 0px;
       height: 51px;
@@ -304,6 +322,12 @@ header {
   }
 
   .tab4 {
+    .shop {
+      display: none;
+    }
+    .product {
+      display: none;
+    }
     padding-top: 200px;
     display: flex;
     flex-wrap: wrap;

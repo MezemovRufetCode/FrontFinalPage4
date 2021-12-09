@@ -277,8 +277,24 @@ header .container .row .menu .menu-links ul li a {
   padding-top: 40px;
 }
 
+#tabs .sbsTabs .tab1 .shop {
+  display: none;
+}
+
+#tabs .sbsTabs .tab1 .product {
+  display: none;
+}
+
 #tabs .sbsTabs .tab2 {
   padding-top: 40px;
+}
+
+#tabs .sbsTabs .tab2 .shop {
+  display: none;
+}
+
+#tabs .sbsTabs .tab2 .product {
+  display: none;
 }
 
 #tabs .sbsTabs .content {
@@ -325,6 +341,14 @@ header .container .row .menu .menu-links ul li a {
   font-family: "Montserrat", sans-serif;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+#tabs .tab3 .shop {
+  display: none;
+}
+
+#tabs .tab3 .product {
+  display: none;
 }
 
 #tabs .tab3 .categories {
@@ -378,6 +402,14 @@ header .container .row .menu .menu-links ul li a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+#tabs .tab4 .shop {
+  display: none;
+}
+
+#tabs .tab4 .product {
+  display: none;
 }
 
 #tabs .tab4 .cat {
